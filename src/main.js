@@ -6,6 +6,9 @@ import 'element-ui/lib/theme-chalk/index.css'
 // @是一个路径的别名  是src路径
 import router from '@/router'
 
+// 导入样式
+import '@/styles/index.less'
+
 // 产品级别提示  不开启
 Vue.config.productionTip = false
 
