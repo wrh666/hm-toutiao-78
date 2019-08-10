@@ -9,6 +9,9 @@ import router from '@/router'
 // 导入样式
 import '@/styles/index.less'
 
+import axios from 'axios'
+Vue.prototype.$http = axios
+
 // 产品级别提示  不开启
 Vue.config.productionTip = false
 
